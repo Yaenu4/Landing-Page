@@ -59,7 +59,7 @@ button {
     margin-top: 5px;
 }
 
-img {
+.top {
     width: 400px;
     height:auto;
     border-radius: 4px;
@@ -67,7 +67,36 @@ img {
 
 .section2 {
     background-color: white;
-    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 250px 80px;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 36px;
+    color: #1F2938;
+}
+
+.box img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+    
+}
+
+.box div {
+    text-align: center;
+    font-size: 18px;
+    color: #808183;
+
+}
+
+.images {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .section3 {
