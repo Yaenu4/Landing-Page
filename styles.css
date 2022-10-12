@@ -101,10 +101,51 @@ button {
 
 .section3 {
     background-color: #E5E7EB;
-    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 150px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f29378c;
+}
+
+.quoter {
+    align-self: flex-end;
+    color: #1F2937;
+    font-weight: 300;
 }
 
 .section4 {
     background-color: white;
-    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px
+}
+
+.bluebox {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 4px;
+    padding: 30px 50px;
+    margin-bottom: 60px;
+    color: #E5E7EB;
+    gap: 110px;
+}
+
+.footer {
+    color: #E5E7EB;
+    background-color: #1F2938;
+    align-self: stretch;
+    text-align: center;
+    padding: 20px;
+}
+
+.footerbutton {
+    border: 2px solid white;
 }
