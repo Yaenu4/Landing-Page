@@ -48,6 +48,11 @@ body {
     flex-direction: column;
 }
 
+a { 
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 button {
     align-self:flex-start;
     padding: 5px 20px;
@@ -115,8 +120,8 @@ button {
 
 .quoter {
     align-self: flex-end;
-    color: #1F2937;
-    font-weight: 300;
+    color: #1f2937ce;
+    font-weight: 600;
 }
 
 .section4 {
@@ -144,8 +149,10 @@ button {
     align-self: stretch;
     text-align: center;
     padding: 20px;
+    font-size: 11px;
 }
 
 .footerbutton {
     border: 2px solid white;
+    white-space: nowrap;
 }
